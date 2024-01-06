@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="Heading">
+      <h1>Tic-Tac-Toe</h1>
+    </div>
+
+    <div class="grid">
+      <table>
+        <tr>
+          <td>
+            <button
+              id="top-left"
+              onclick="play('top-left')"
+              class="top-left"
+            ></button>
+          </td>
+          <td>
+            <button
+              id="top-middle"
+              onclick="play('top-middle')"
+              class="top-middle"
+            ></button>
+          </td>
+          <td>
+            <button
+              id="top-right"
+              onclick="play('top-right')"
+              class="top-right"
+            ></button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button
+              id="middle-left"
+              onclick="play('middle-left')"
+              class="middle-left"
+            ></button>
+          </td>
+          <td>
+            <button
+              id="middle-middle"
+              onclick="play('middle-middle')"
+              class="middle-middle"
+            ></button>
+          </td>
+          <td>
+            <button
+              id="middle-right"
+              onclick="play('middle-right')"
+              class="middle-right"
+            ></button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button
+              id="bottom-left"
+              onclick="play('bottom-left')"
+              class="bottom-left"
+            ></button>
+          </td>
+          <td>
+            <button
+              id="bottom-middle"
+              onclick="play('bottom-middle')"
+              class="bottom-middle"
+            ></button>
+          </td>
+          <td>
+            <button
+              id="bottom-right"
+              onclick="play('bottom-right')"
+              class="bottom-right"
+            ></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="reset">
+      <button onclick="reset()" class="reset-button">Reset</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
